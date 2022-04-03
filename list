@@ -7,11 +7,9 @@ www.developpez.com##div:has(p:has-text(bloqueur de pub))
 ! 22/09/2020 - Google - remove cookie-consent-popup and restore scroll functionality
 google.*##^script:has-text(CONSENT)
 
-# 25/08/2021 - youtube consent - "before you continue"
-www.youtube.*##^script:has-text(consentCookiePayload)
-www.youtube.*##+js(acis, document.cookie, YES+)
-youtube.*##+js(aeld, DOMContentLoaded, CONSENT)
-#||consent.google.com^
+! 03/04/2022 - youtube consent - "before you continue"
+www.youtube.com##.ytd-consent-bump-v2-lightbox.style-scope.v2-dialog
+www.youtube.com##.opened
 
 ! 2021-01-31 https://22pixx.xyz
 22pixx.xyz##.overlayera
