@@ -18,7 +18,7 @@ www.youtube.com##.opened
 !!google.*##^script:has-text(consentCookiePayload)
 
 ! 2021-04-28 https://www.amazon.fr
-#www.amazon.fr###ewc-content
+!www.amazon.fr###ewc-content
 
 ! 2022-02-18 twitter enforcing login
 twitter.com##div#layers div[data-testid="sheetDialog"]:upward(div[role="group"][tabindex="0"])
